@@ -5,8 +5,9 @@ require 'pp'
 # using director_data as input
 def gross_for_director(director_data)
   total_gross = 0
-  movie_index = 0
-  while movie_index < director_data[]
+  director_index = 0
+  while director_index < director_data.length do
+    
 end
 
 # Write a method that, given an NDS creates a new Hash
